@@ -3,7 +3,7 @@
 module.exports = {
 
   index: function (req, res) {
-    res.render('index', { title: 'Industry Week' });
+    res.render('index', { title: 'Susy Demo' });
   }
 
 };

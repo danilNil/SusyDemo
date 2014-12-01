@@ -46,6 +46,13 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('public/assets/css/'));
 });
 
+gulp.task('compass', function() {
+  return gulp.src('public/sass/style.scss')
+  .pipe($.plumber())
+  .pipe($.rubySass({compass : true, require : 'susy'}))
+  .pipe(gulp.dest('public/assets/css'));
+});
+
 gulp.task('traceur', function () {
 
   return stream.merge(
@@ -101,7 +108,7 @@ gulp.task('rjs', ['traceur'], function () {
     .pipe(gulp.dest('public/assets/js'));
 });
 
-gulp.task('build', ['sass', 'traceur']);
+gulp.task('build', ['compass', 'traceur']);
 
 gulp.task('clean', function (done) {
   del('public/assets', { force: true }, done);

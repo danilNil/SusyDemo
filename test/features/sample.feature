@@ -6,7 +6,7 @@ Feature: Example feature
 
   Scenario: Home page title
     Given I'm on the home page
-    Then I should see "Industry Week" in the title of the page
+    Then I should see "Susy Demo" in the title of the page
 
   Scenario: Home page alert
     Given I'm on the home page

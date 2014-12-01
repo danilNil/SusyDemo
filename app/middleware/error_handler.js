@@ -25,6 +25,6 @@ module.exports = function (opts) {
     };
   }
 
-  errorHandler.title = 'Industry Week';
+  errorHandler.title = 'Susy Demo';
   return errorHandler(opts);
 };
