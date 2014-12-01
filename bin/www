@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict';
+
+var app = require('../app');
+var port = require('../config').get('port');
+
+var serviceDiscovery = require('../app/components/service_discovery');
+var logger = require('../app/components/logger');
+
+app.listen(port, function () {
+  serviceDiscovery.start();
+  logger.info({ port: port }, 'Server started...');
+});

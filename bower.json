@@ -1,0 +1,17 @@
+{
+  "name": "susydemo",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/components",
+    "test"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "backbone": "~1.1.2",
+    "bootstrap-sass": "twbs/bootstrap-sass#~3.3.1",
+    "fastclick": "~1.0.3"
+  }
+}

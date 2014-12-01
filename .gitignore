@@ -1,0 +1,29 @@
+# Mac OS X files
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Dependency directory
+node_modules
+public/components
+
+# WS configs
+.idea
+
+/config/database.json
+/.env
+
+# Sass compiled styles
+.sass-cache
+
+# Dist builds
+/public/assets
+
+/.vagrant
