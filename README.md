@@ -100,7 +100,7 @@ Install LiveReload browser extension, to refresh a web page's styles without rel
 
 ### Testing
 
-* [Mocha](http://visionmedia.github.io/mocha/) - test framework
+* [Mocha](http://mochajs.org/) - test framework
 * [Chai](http://chaijs.com/guide/) - assertion library (include asserts, expextations, shoulds)
 * [CucumberJS](https://github.com/cucumber/cucumber-js) - BDD test runner
 * [Zombie JS](http://zombie.labnotes.org/) - insanely fast, headless full-stack testing using Node.js
